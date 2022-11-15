@@ -1,3 +1,11 @@
+create_SZ_maps/data_inp/*
+!create_SZ_maps/data_inp/.gitkeep 
+
+create_SZ_maps/output_ymaps/*
+!create_SZ_maps/output_ymaps/.gitkeep 
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
