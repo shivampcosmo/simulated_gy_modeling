@@ -2,7 +2,7 @@
 ## create_LH_points.py:
 This file will create the LH points for your parameters. You can change the params_all.ini file with providing a min and max values over which ther parameter needs to be varied. The format is that for each section you either give [min fiducial max] value for parameter to be varied, or you just give a [ fiducial ] value for it to be fixed. 
 ## clusters.py:
-This is main code by Sigurd, opitmized to paint in Battaglia12 profile. I can get it to get a y-map from full sky websky catalog, cutting at halos above log(M) > 11.5 in ~1hr using 4 nodes of perlmutter. So generating O(100) simulated ymaps is not infeasible. 
+This is the main code by Sigurd, opitmized to paint in Battaglia12 profile. I can get it to output a y-map from the full sky websky catalog, cutting at halos above log(M) > 11.5 in ~1hr using 4 nodes of perlmutter. So generating O(100) simulated ymaps is not infeasible. 
 ## sim_websky_LH_ymaps.py:
 This again is a modification of Sigurd's code, automated to readin the LH points and simply run a for-loop to get ymaps. It can also be paralellized, but since creating the main y-map is already parallelized and scales linearly with resources, one wouldn't gain much here I guess.
 
