@@ -284,17 +284,17 @@ def websky_decode(data, cosmology, mass_interp, lgMmin=None):
 
 	return bunch.Bunch(z=z, ra=ra, dec=dec, m200=m200)
 
-def catalog_decode(catalog_data, cosmology, lgMmin=None):
+def abacus_decode(catalog_data, cosmology, lgMmin=None):
 	"""
 		Go from a raw catalog to pos, z and m200
 		make sure m200 is normal m200c in units of Msun/h
 		can also provide log10(Mmin) to cut on mass. 
 		Again units of Mmin are Msun/h
 	"""
-	z = catalog_data['z']
+	z = catalog_data['redshift']
 	ra = catalog_data['ra']
 	dec = catalog_data['dec']
-	m200 = catalog_data['m200']*(utils.M_sun/cosmology["h"])
+	m200 = catalog_data['M200c']*(utils.M_sun/cosmology["h"])
 	if lgMmin is not None:
 		Mmin = (10**lgMmin)*(utils.M_sun/cosmology["h"])
 		indsel = np.where((m200 > Mmin))[0]

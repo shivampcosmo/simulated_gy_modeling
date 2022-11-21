@@ -44,7 +44,7 @@ for jsv in range(len(rsv)):
     # sampling = LHS(xlimits=xlimits,criterion='ese',random_state=int(rand_states[jsv]))
     sampling = LHS(xlimits=xlimits,criterion='cm',random_state=int(rand_states[jsv]))
 
-    num = 40
+    num = 100
     x = sampling(num)
 
     nLHS = num
@@ -62,5 +62,5 @@ for jsv in range(len(rsv)):
     for var in all_vary_names:
         first_line += str(var) + '    '
 
-    np.savetxt('sample_chain_vary_params_rs' + str(rsv[jsv]) + '.txt',LHS_points_final,header=first_line)
+    np.savetxt('sample_chain_vary_params_np_' + str(nvar_all) + '_rs' + str(rsv[jsv]) + '.txt',LHS_points_final,header=first_line)
 

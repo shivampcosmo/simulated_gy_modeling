@@ -4,6 +4,8 @@ create_SZ_maps/data_inp/*
 create_SZ_maps/output_ymaps/*
 !create_SZ_maps/output_ymaps/.gitkeep 
 
+correlate_SZ_tracer/temp/*
+!correlate_SZ_tracer/temp/.gitkeep 
 
 
 # Byte-compiled / optimized / DLL files
