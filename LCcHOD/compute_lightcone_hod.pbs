@@ -1,0 +1,30 @@
+#./compute_mocks 0.60 12.95 10.0 13.95 1.50 1.0 0.0 0.0 1.0 1.0 0.1 42 ../halo_1e11cut_base_c000_ph000_z0p65toz1p4.h5 ../LCHOD_0.6_12.95_10.0_13.95_1.5_1.0_1.0_0.0_0.0_1.0_0.1_base_c000_ph000_z0p65toz1p4.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p65toz1p4.conc_env.h5
+#python ../convert_to_obs_coord.py ../LCHOD_0.6_12.95_10.0_13.95_1.5_1.0_1.0_0.0_0.0_1.0_0.1_base_c000_ph000_z0p65toz1p4.mock.h5 0.8 1.3 ../C_mock_lightcone.h5 --RA_binfile ../mock_C_RA.bin --DEC_binfile ../mock_C_DEC.bin --ZRED_binfile ../mock_C_ZRED.bin
+
+#./compute_mocks 0.50 12.90 10.0 13.80 1.50 1.0 0.0 0.0 1.0 1.0 0.0 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_0.0_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+#python ../convert_to_obs_coord.py ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_0.0_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 0.2 0.5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_0.0_1.0_0.0_base_c000_ph000_z0p2toz0p5.obs.mock.h5
+
+#./compute_mocks 0.50 12.90 10.0 13.80 1.50 1.0 -0.1 0.0 1.0 1.0 0.0 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_-0.1_0.0_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+#python ../convert_to_obs_coord.py ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_-0.1_0.0_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 0.2 0.5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_-0.1_0.0_1.0_0.0_base_c000_ph000_z0p2toz0p5.obs.mock.h5
+
+#./compute_mocks 0.50 12.90 10.0 13.80 1.50 1.0 0.1 0.0 1.0 1.0 0.0 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.1_0.0_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+#python ../convert_to_obs_coord.py ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.1_0.0_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 0.2 0.5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.1_0.0_1.0_0.0_base_c000_ph000_z0p2toz0p5.obs.mock.h5
+
+#./compute_mocks 0.50 12.90 10.0 13.80 1.50 1.0 0.0 -0.1 1.0 1.0 0.0 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_-0.1_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+#python ../convert_to_obs_coord.py ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_-0.1_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 0.2 0.5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_-0.1_1.0_0.0_base_c000_ph000_z0p2toz0p5.obs.mock.h5
+
+#./compute_mocks 0.50 12.90 10.0 13.80 1.50 1.0 0.0 0.1 1.0 1.0 0.0 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_0.1_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+#python ../convert_to_obs_coord.py ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_0.1_1.0_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 0.2 0.5 ../LCHOD_0.5_12.90_10.0_13.80_1.5_1.0_1.0_0.0_0.1_1.0_0.0_base_c000_ph000_z0p2toz0p5.obs.mock.h5
+
+#./compute_mocks 0.60 12.60 10.0 14.10 1.50 0.6 0.0 0.0 1.0 0.5 -0.1 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.6_12.60_10.0_14.10_1.5_0.6_0.0_0.0_1.0_0.5_-0.1_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+#python ../convert_to_obs_coord.py ../LCHOD_0.6_12.60_10.0_14.10_1.5_0.6_0.0_0.0_1.0_0.5_-0.1_base_c000_ph000_z0p1toz1p025.mock.h5 0.15 0.7 ../LCHOD_0.6_12.60_10.0_14.10_1.5_0.6_0.0_0.0_1.0_0.5_-0.1_base_c000_ph000_z0p15toz0p70.mock.h5
+
+#./compute_mocks 0.60 12.60 10.0 14.10 1.50 0.6 0.0 0.0 1.0 0.5 0.0 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.6_12.60_10.0_14.10_1.5_0.6_0.0_0.0_1.0_0.5_0.0_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+
+start=$SECONDS
+./compute_mocks 0.60 12.60 10.0 14.10 1.50 0.6 0.0 0.0 1.0 0.35 -0.15 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.6_12.60_10.0_14.10_1.5_0.6_0.0_0.0_1.0_0.35_-0.15_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
+end=$SECONDS
+
+echo "cHOD duration: $((end-start)) seconds..."
+
+#./compute_mocks 0.60 12.60 10.0 14.10 1.50 1.0 0.0 0.0 1.0 0.35 -0.15 42 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.h5 ../LCHOD_0.6_12.60_10.0_14.10_1.5_1.0_0.0_0.0_1.0_0.35_-0.15_base_c000_ph000_z0p1toz1p025.mock.h5 ../halo_1e11cut_base_c000_ph000_z0p1toz1p025.conc_env.h5
