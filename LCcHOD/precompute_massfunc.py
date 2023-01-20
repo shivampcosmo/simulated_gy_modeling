@@ -21,7 +21,7 @@ def compute_mass_function(zmin, zmax, infile, V):
 
     binned_masses = all_masses[index]
 
-    mass_bins = np.logspace(11, 15, 512)
+    mass_bins = np.logspace(11, 15, 101)
     mass_avg = (mass_bins[1:] + mass_bins[:-1])/2.0
 
     hist, bin_edges = np.histogram(binned_masses, mass_bins)
