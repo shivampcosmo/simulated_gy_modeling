@@ -39,7 +39,7 @@ parser.add_argument('zmax')
 parser.add_argument('outfile')
 args = parser.parse_args()
 
-cosmo = astropy.cosmology.FlatLambdaCDM(H0 = 72.0, Om0 = 0.314, Neff = 3.04) #currently hardcoded to Summit cosmology
+cosmo = astropy.cosmology.FlatLambdaCDM(H0 = 67.36, Om0 = 0.314, Neff = 3.04) #currently hardcoded to Summit cosmology
 
 zmin = float(args.zmin)
 zmax = float(args.zmax)
