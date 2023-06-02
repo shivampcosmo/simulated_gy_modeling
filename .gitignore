@@ -1,18 +1,21 @@
 create_SZ_maps/data_inp/*
 !create_SZ_maps/data_inp/.gitkeep 
 create_SZ_maps/bp_model/Xrays/atomdb_v3.0.9/apec_linelist.fits
-create_SZ_maps/bp_model/*
 create_SZ_maps/output_ymaps/*
 !create_SZ_maps/output_ymaps/.gitkeep 
 
 correlate_SZ_tracer/temp/*
 !correlate_SZ_tracer/temp/.gitkeep 
 
-SBI/sbi-logs/*
-LCcHOD/logs/*
-halo_cats_cosmogrid/*
-correlate_SZ_tracer/output/*
-correlate_SZ_tracer/temp/*
+create_SZ_maps/gnfw_model/pixell/
+create_SZ_maps/bp_model/
+correlate_SZ_tracer/output/
+
+SBI/sbi-logs/
+LCcHOD/logs/
+halo_cats_cosmogrid/
+correlate_SZ_tracer/output/
+correlate_SZ_tracer/temp/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
